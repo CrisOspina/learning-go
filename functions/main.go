@@ -15,7 +15,7 @@ func test3(a int) (c, d int) {
 	return a, c
 }
 
-func main()  {
+func main() {
 	dataA, dataB := test3(10)
 	fmt.Println(test())
 	fmt.Println(test2(12))

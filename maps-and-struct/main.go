@@ -8,7 +8,7 @@ func hashMapsExample() {
 	data["odin"] = 500
 	data["hela"] = 200
 	fmt.Println(data)
-	
+
 	for key, value := range data {
 		fmt.Println(key, value)
 	}
@@ -16,7 +16,7 @@ func hashMapsExample() {
 
 type car struct {
 	brand string
-	year int
+	year  int
 }
 
 func main() {

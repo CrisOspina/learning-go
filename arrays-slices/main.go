@@ -18,12 +18,12 @@ func arrayExample() {
 }
 
 func slideExample() {
-	slice := []int{0,1,2,3,4,5,6,7}
+	slice := []int{0, 1, 2, 3, 4, 5, 6, 7}
 	fmt.Println("total: ", len(slice), "capacidad del slice: ", cap(slice))
 }
 
 func methodForSlice() {
-	slice := []int{0,1,2,3,4,5,6,7}
+	slice := []int{0, 1, 2, 3, 4, 5, 6, 7}
 	fmt.Println(slice[0])
 	fmt.Println(slice[:3])
 	fmt.Println(slice[2:4])
@@ -35,7 +35,7 @@ func methodForSlice() {
 	newSlice := []int{9, 10, 11}
 	slice = append(slice, newSlice...)
 	fmt.Println(slice)
-}	
+}
 
 func sliceExample2() {
 	data := []string{"thor", "loki", "hela"}
@@ -55,13 +55,13 @@ func isPalindromo1(text string) bool {
 	return strings.ToLower(text) == strings.ToLower(textReverse)
 }
 
-func main()  {	
+func main() {
 	arrayExample()
 	slideExample()
 	methodForSlice()
 	sliceExample2()
-	
-	if(isPalindromo1("ama")) {
+
+	if isPalindromo1("ama") {
 		fmt.Println("Es palindromo")
 	} else {
 		fmt.Println("No lo es palindromo...")

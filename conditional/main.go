@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func isNumberPar(number int) bool {
-	return number % 2 == 0
+	return number%2 == 0
 }
 
 func isValidUser(nick string, password string) bool {
@@ -27,19 +27,19 @@ func switch2(number int) {
 		fmt.Println("> 100")
 	case number > 80 && number < 90:
 		fmt.Println("> 90 < 80.")
-	default: 
-	  fmt.Println("Default")
+	default:
+		fmt.Println("Default")
 	}
 }
 
 func main() {
-	if(isNumberPar(5)) {
+	if isNumberPar(5) {
 		fmt.Println("Es par")
 	} else {
 		fmt.Println("Es impar")
 	}
 
-	if(isValidUser("cris", "12345")){
+	if isValidUser("cris", "12345") {
 		fmt.Println("User ok")
 	} else {
 		fmt.Println("User not found")

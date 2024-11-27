@@ -6,12 +6,12 @@ func continueAndBreakExample() {
 	for i := 0; i < 10; i = i + 1 {
 		fmt.Println(i)
 
-		if(i == 5) {
+		if i == 5 {
 			fmt.Println("continue")
 			continue
 		}
 
-		if(i == 8){
+		if i == 8 {
 			fmt.Println("break")
 			break
 		}
@@ -28,7 +28,7 @@ func deferExample() {
 	*/
 }
 
-func main()  {
+func main() {
 	defer deferExample()
 	continueAndBreakExample()
 }

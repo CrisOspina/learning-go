@@ -8,16 +8,16 @@ func forBasic() {
 	}
 }
 
-func forVar() { 
-	var i int = 0 
+func forVar() {
+	var i int = 0
 	for i = 0; i < 10; i = i + 1 {
 		fmt.Println(i)
 	}
 }
 
-func while(){
+func while() {
 	counter := 0
-	
+
 	for counter < 10 {
 		fmt.Println((counter))
 		counter++

@@ -1,7 +1,0 @@
-- Temas
-  - Variables y constantes
-  - Funciones y estructuras básicas
-  - Goroutines
-  - Go modules
-  - Librería para backend
-  - Tips
